@@ -27,7 +27,7 @@ func _ready():
 		for j in range(len (base_form)):
 			temp[j] -= base_form [j]
 		blndshp.push_back(temp)
-	var tex = load(\"res://char_edit/meshs4gen/vertex_groups.png\").get_data() # на текстуре надо следить, чтобы одинаковые вершины на швах UV были в одной группе, иначе будет дырка в меше.
+	var tex = load(\"res://addons/Go_MakeHuman_dot/Character Generator/char_edit/meshs4gen/vertex_groups.png\").get_data() # на текстуре надо следить, чтобы одинаковые вершины на швах UV были в одной группе, иначе будет дырка в меше.
 	var tex_size = tex.get_size()
 	tex.lock()
 	for i in forms[\"body\"].keys():

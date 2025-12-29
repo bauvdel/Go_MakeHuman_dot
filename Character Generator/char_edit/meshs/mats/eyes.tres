@@ -1,7 +1,7 @@
-[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b4k4vxqwn56md"]
 
-[ext_resource path="res://char_edit/meshs/mats/brown_eye.png" type="Texture" id=1]
+[ext_resource type="Texture2D" uid="uid://b0qhvq3xd6yxh" path="res://addons/Go_MakeHuman_dot/Character Generator/char_edit/meshs/mats/brown_eye.png" id="1"]
 
 [resource]
-albedo_texture = ExtResource( 1 )
+albedo_texture = ExtResource("1")
 roughness = 0.23
