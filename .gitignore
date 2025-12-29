@@ -1,2 +1,4 @@
 Character Generator/char_edit/shapes.json
 *.mesh.bak
+*.bak
+test_*.tscn
